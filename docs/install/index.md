@@ -11,7 +11,7 @@ nav_order: 2
 
 PcapPlusPlus is available on <img src="{{ site.baseurl }}/resources/logo-windows.png" alt="drawing" width="24" title="Windows"/> Windows, <img src="{{ site.baseurl }}/resources/logo-linux.png" alt="drawing" width="24" title="Linux"/> Linux, <img src="{{ site.baseurl }}/resources/logo-apple.png" alt="drawing" width="24" title="MacOS"/> MacOS, <img src="{{ site.baseurl }}/resources/logo-android.png" alt="drawing" width="24" title="Android"/> Android and <img src="{{ site.baseurl }}/resources/logo-freebsd.png" alt="drawing" width="24" title="FreeBSD"/> FreeBSD (see more details [here]({{ site.baseurl }}/docs/platforms)).
 
-[{{ site.pcapplusplus_ver }} release](https://github.com/seladb/PcapPlusPlus/releases/tag/v21.05){: .btn .btn-purple } {% include new-release.html %}
+[{{ site.pcapplusplus_ver }} Release](https://github.com/seladb/PcapPlusPlus/releases/tag/v21.05){: .btn .btn-purple } {% include new-release.html %}
 
 You can choose between downloading pre-built binaries or build it from source. The different options are described below:
 
@@ -43,7 +43,7 @@ conan remote add public-conan https://api.bintray.com/conan/bincrafters/public-c
 conan install pcapplusplus/{{ site.pcapplusplus_ver_num }}@bincrafters/stable -r public-conan
 ```
 
-## Latest Release From GitHub
+## {{ site.pcapplusplus_ver }} Release From GitHub
 
 Available for: <img src="{{ site.baseurl }}/resources/logo-windows.png" alt="drawing" width="24" title="Windows"/> <img src="{{ site.baseurl }}/resources/logo-linux.png" alt="drawing" width="24" title="Linux"/> <img src="{{ site.baseurl }}/resources/logo-apple.png" alt="drawing" width="24" title="MacOS"/> <img src="{{ site.baseurl }}/resources/logo-freebsd.png" alt="drawing" width="24" title="FreeBSD"/> 
 

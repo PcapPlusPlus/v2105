@@ -12,7 +12,7 @@ __PcapPlusPlus__ is a multiplatform C++ library for capturing, parsing and craft
 PcapPlusPlus enables decoding and forging capabilities for a large variety of network protocols. It also provides easy to use C++ wrappers for the most popular packet processing engines such as [libpcap](https://www.tcpdump.org/), [WinPcap](https://www.winpcap.org/), [Npcap](https://nmap.org/npcap/) (WinPcap's successor), [DPDK](https://www.dpdk.org/) and [PF_RING](https://www.ntop.org/products/packet-capture/pf_ring/).
 
 
-[Latest Release: {{ site.pcapplusplus_ver }}](https://github.com/seladb/PcapPlusPlus/releases/tag/v21.05){: .btn .btn-purple } {% include new-release.html %}
+[{{ site.pcapplusplus_ver }} Release](https://github.com/seladb/PcapPlusPlus/releases/tag/v21.05){: .btn .btn-purple } {% include new-release.html %}
 
 ---
 
